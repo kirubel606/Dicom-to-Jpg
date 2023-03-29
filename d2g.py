@@ -65,7 +65,7 @@ def convert_directory(input_dir, output_dir, quality=90):
             shutil.copy(full_filepath, output_filepath)
 
 # Example usage
-input_dir = r"K:/stroke/July St"
-output_dir = r"K:/stroke/July St"
+input_dir = r"/path" 
+output_dir = r"/path"
 quality = 90
 convert_directory(input_dir, output_dir, quality=quality)
