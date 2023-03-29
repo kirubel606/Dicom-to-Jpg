@@ -65,7 +65,7 @@ def convert_directory(input_dir, output_dir, quality=90):
             shutil.copy(full_filepath, output_filepath)
 
 # Example usage
-input_dir = r"/path" 
-output_dir = r"/path"
+input_dir = r"/path"  #insert path to directory that contains DICOM images
+output_dir = r"/path"  #insert path where you want the JPG to be placed in if you want it in the same folder use the exact path on input_dir
 quality = 90
 convert_directory(input_dir, output_dir, quality=quality)
