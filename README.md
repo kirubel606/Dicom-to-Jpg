@@ -2,5 +2,15 @@
 ## This is the best and easiest way to convert DICOM images to .jpg format
 ### First run This on your python terminal
 ```
-pip install dicom2jpg
+import os
+import pydicom
+import numpy as np
+from PIL import Image, ImageFilter
+import shutil
+```
+
+```
+pip install pydicom
+pip install PIL
+pip install shutil
 ```
